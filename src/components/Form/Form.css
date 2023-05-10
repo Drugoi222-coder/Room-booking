@@ -1,0 +1,22 @@
+.form {
+    width: 60%;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media (max-width: 1200px) {
+    .form {
+        width: 80%;
+    }
+}
+
+@media (max-width: 900px) {
+    .form {
+        height: 820px;
+    }
+}
